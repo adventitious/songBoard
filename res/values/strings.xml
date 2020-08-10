@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppAug2020</string>
+    <string name="playButton1">Play Song 1</string>
+    <string name="playButton2">Play Song 2</string>
+</resources>
