@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AppAug2020</string>
-    <string name="playButton1">Play Song 1</string>
-    <string name="playButton2">Play Song 2</string>
+    <string name="app_name">Song Board</string>
+    <string name="playBackButton1">Back</string>
+    <string name="imageDescription">myImage</string>
 </resources>
