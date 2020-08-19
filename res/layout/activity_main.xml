@@ -4,30 +4,128 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="playMusic"
+    android:background="#000000"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:onClick="Song2"
-        android:text="@string/playButton2"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:onClick="Song1"
-        android:text="@string/playButton1"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:contentDescription="@string/imageDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="#000000"
+                android:onClick="song1"
+                android:scaleType="center"
+                android:src="@drawable/batman" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:contentDescription="@string/imageDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="#000000"
+                android:onClick="song2"
+                android:scaleType="center"
+                android:src="@drawable/grease" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:contentDescription="@string/imageDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:onClick="song3"
+                android:scaleType="center"
+                android:src="@drawable/underwater_waltz" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:contentDescription="@string/imageDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:onClick="song4"
+                android:scaleType="center"
+                android:src="@drawable/the_sting" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:contentDescription="@string/imageDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:onClick="song5"
+                android:scaleType="center"
+                android:src="@drawable/axel_f" />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:contentDescription="@string/imageDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:onClick="song6"
+                android:scaleType="center"
+                android:src="@drawable/phantom" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:contentDescription="@string/imageDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:onClick="song7"
+                android:scaleType="center"
+                android:src="@drawable/tetris_a" />
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:contentDescription="@string/imageDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:onClick="song8"
+                android:scaleType="center"
+                android:src="@drawable/tetris_b" />
+        </LinearLayout>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
