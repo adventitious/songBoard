@@ -104,8 +104,8 @@ class musicPlayer : AppCompatActivity() {
     }
 
     fun backOut(view: View){
-        val intent = Intent(this , MainActivity::class.java)
-        startActivity(intent)
+        // val intent = Intent(this , MainActivity::class.java)
+        // startActivity(intent)
         finish()
     }
 
